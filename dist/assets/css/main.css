@@ -366,6 +366,39 @@ textarea {
   /* 2 */ }
 
 .container {
-  width: 1280px; }
+  width: 1280px;
+  margin: 0 auto; }
+
+.container-rubber {
+  width: 100%;
+  margin: 0 auto; }
+
+/* calentar button */
+.calendar {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0;
+  height: 10px; }
+
+.calendar__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px; }
+
+.calendar__icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: #b00; }
+
+.calendar__text + .calendar__icon {
+  margin-left: 8px; }
+
+/* btns */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/main.css.map */
